@@ -14,11 +14,6 @@ trait Singleton
 		throw new Exception('You can not clone a singleton.');
 	}
 
-	final private function __wakeup()
-	{
-		throw new Exception('You can not clone a singleton.');
-	}
-
 	public static function getInstance()
 	{
     	static $instances;
