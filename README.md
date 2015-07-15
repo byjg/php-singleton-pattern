@@ -1,4 +1,5 @@
 # Singleton Pattern
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/?branch=master)
 
 ## Description
 
