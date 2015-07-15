@@ -1,6 +1,6 @@
 {
     "name": "byjg/singleton-pattern",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A lightweight PHP implementation of the Design Pattern Singleton using trait.",
     "authors": [
         {
