@@ -1,5 +1,6 @@
 # Singleton Pattern
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/?branch=master)
+[![Code Climate](https://codeclimate.com/github/byjg/SingletonPatternPHP/badges/gpa.svg)](https://codeclimate.com/github/byjg/SingletonPatternPHP)
 
 ## Description
 
@@ -34,7 +35,7 @@ $example = Example::getInstance();
 
 ## Install
 
-Just type: `composer install "byjg/singleton-pattern=1.0.0"`
+Just type: `composer install "byjg/singleton-pattern=1.0.1"`
 
 ## References
 
