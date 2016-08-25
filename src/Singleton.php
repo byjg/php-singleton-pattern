@@ -13,7 +13,10 @@ trait Singleton
 	{
 		throw new Exception('You can not clone a singleton.');
 	}
-
+	
+	/**
+	* @return static
+	*/
 	public static function getInstance()
 	{
     	static $instances;
