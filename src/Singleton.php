@@ -2,32 +2,33 @@
 
 namespace ByJG\DesignPattern;
 
-use Exception;
-
 trait Singleton
 {
-	protected function __construct()
-	{ }
+    protected function __construct()
+    {
+    }
 
-	final private function __clone()
-	{
-		throw new Exception('You can not clone a singleton.');
-	}
-	
-	/**
-	* @return static
-	*/
-	public static function getInstance()
-	{
-    	static $instances;
+    /**
+     * @throws SingletonException
+     */
+    final private function __clone()
+    {
+        throw new SingletonException('You can not clone a singleton.');
+    }
+
+    /**
+     * @return static
+     */
+    public static function getInstance()
+    {
+        static $instances;
 
         $calledClass = get_called_class();
 
-		if (!isset($instances[$calledClass]))
-		{
+        if (!isset($instances[$calledClass])) {
             $instances[$calledClass] = new $calledClass();
-		}
-		return $instances[$calledClass];
-	}
+        }
+        return $instances[$calledClass];
+    }
 
 }
