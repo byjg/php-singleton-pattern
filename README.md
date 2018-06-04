@@ -35,7 +35,7 @@ $example = Example::getInstance();
 
 ## Install
 
-Just type: `composer install "byjg/singleton-pattern=1.0.1"`
+Just type: `composer require "byjg/singleton-pattern=~1.0"`
 
 ## References
 
