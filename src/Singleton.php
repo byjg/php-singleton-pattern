@@ -11,7 +11,7 @@ trait Singleton
     /**
      * @throws SingletonException
      */
-    final private function __clone()
+    final public function __clone()
     {
         throw new SingletonException('You can not clone a singleton.');
     }
