@@ -17,6 +17,22 @@ trait Singleton
     }
 
     /**
+     * @throws SingletonException
+     */
+    final public function __sleep()
+    {
+        throw new SingletonException('You can not serialize a singleton.');
+    }
+
+    /**
+     * @throws SingletonException
+     */
+    final public function __wakeup()
+    {
+        throw new SingletonException('You can not deserialize a singleton.');
+    }
+
+    /**
      * @return static
      */
     public static function getInstance()

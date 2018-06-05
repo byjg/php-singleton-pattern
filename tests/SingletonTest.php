@@ -45,4 +45,12 @@ class SingletonTest extends \PHPUnit\Framework\TestCase
         $sample2 = clone $sample1;
     }
 
+    /**
+     * @expectedException \ByJG\DesignPattern\SingletonException
+     */
+    public function testSerialize()
+    {
+        $sample1 = Sample1::getInstance();
+        $serialize = serialize($sample1);
+    }
 }
