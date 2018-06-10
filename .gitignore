@@ -3,3 +3,8 @@ nbproject/private
 composer.lock
 vendor
 .idea
+
+.scannerwork
+phpunit.coverage.xml
+phpunit.report.xml
+
