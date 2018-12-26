@@ -14,14 +14,13 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/?branch=master)
 [![Code Climate](https://codeclimate.com/github/byjg/SingletonPatternPHP/badges/gpa.svg)](https://codeclimate.com/github/byjg/SingletonPatternPHP)
 
-## Description
 
 A lightweight PHP implementation of the Design Pattern Singleton using trait.
 Just one class and no dependencies. 
 
-## Usage
+# Usage
 
-### Create your class
+## Create your class
 
 ```php
 require "vendor/autoload.php";
@@ -39,17 +38,20 @@ class Example
 Singleton classes does not have arguments in the constructor;
 
 
-### Use your class
+## Use your class
 
 ```php
 $example = Example::getInstance();
 ```
 
-## Install
+# Install
 
-Just type: `composer require "byjg/singleton-pattern=~1.0"`
+```
+composer require "byjg/singleton-pattern=~1.0"
+```
 
-## References
+# References
 
 * https://en.wikipedia.org/wiki/Singleton_pattern
+
 
