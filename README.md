@@ -7,8 +7,6 @@
 A lightweight PHP implementation of the Design Pattern Singleton using trait.
 Just one class and no dependencies. 
 
-# Usage
-
 ## Create your class
 
 ```php
@@ -33,13 +31,13 @@ Singleton classes does not have arguments in the constructor;
 $example = Example::getInstance();
 ```
 
-# Install
+## Install
 
 ```
 composer require "byjg/singleton-pattern=~1.0"
 ```
 
-# References
+## References
 
 * https://en.wikipedia.org/wiki/Singleton_pattern
 
