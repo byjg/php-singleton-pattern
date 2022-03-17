@@ -1,5 +1,7 @@
 <?php
 
+use ByJG\DesignPattern\SingletonException;
+
 require_once __DIR__ . "/../vendor/autoload.php";
 require_once "Sample1.php";
 require_once "Sample2.php";
@@ -36,20 +38,16 @@ class SingletonTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(40, $sample1->property);
     }
 
-    /**
-     * @expectedException \ByJG\DesignPattern\SingletonException
-     */
     public function testClone()
     {
+        $this->expectException(SingletonException::class);
         $sample1 = Sample1::getInstance();
         $sample2 = clone $sample1;
     }
 
-    /**
-     * @expectedException \ByJG\DesignPattern\SingletonException
-     */
     public function testSerialize()
     {
+        $this->expectException(SingletonException::class);
         $sample1 = Sample1::getInstance();
         $serialize = serialize($sample1);
     }
