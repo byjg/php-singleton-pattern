@@ -4,7 +4,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/byjg/SingletonPatternPHP/?branch=master)
 [![Build Status](https://github.com/byjg/SingletonPatternPHP/actions/workflows/phpunit.yml/badge.svg?branch=master)](https://github.com/byjg/SingletonPatternPHP/actions/workflows/phpunit.yml)
 
-
 A lightweight PHP implementation of the Design Pattern Singleton using trait.
 Just one class and no dependencies. 
 
