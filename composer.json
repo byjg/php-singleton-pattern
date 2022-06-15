@@ -1,12 +1,6 @@
 {
   "name": "byjg/singleton-pattern",
   "description": "A lightweight PHP implementation of the Design Pattern Singleton using trait.",
-  "authors": [
-    {
-      "name": "João Gilberto Magalhães",
-      "email": "joao@byjg.com.br"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "ByJG\\DesignPattern\\": "src/"
