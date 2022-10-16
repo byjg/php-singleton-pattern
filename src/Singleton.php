@@ -6,12 +6,13 @@ trait Singleton
 {
     protected function __construct()
     {
+        // Constructor cannot be public
     }
 
     /**
      * @throws SingletonException
      */
-    final public function __clone()
+    public function __clone()
     {
         throw new SingletonException('You can not clone a singleton.');
     }
@@ -19,7 +20,7 @@ trait Singleton
     /**
      * @throws SingletonException
      */
-    final public function __sleep()
+    public function __sleep()
     {
         throw new SingletonException('You can not serialize a singleton.');
     }
@@ -27,7 +28,7 @@ trait Singleton
     /**
      * @throws SingletonException
      */
-    final public function __wakeup()
+    public function __wakeup()
     {
         throw new SingletonException('You can not deserialize a singleton.');
     }

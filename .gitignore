@@ -7,4 +7,4 @@ vendor
 .scannerwork
 phpunit.coverage.xml
 phpunit.report.xml
-
+.phpunit.result.cache
