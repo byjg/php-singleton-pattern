@@ -24,7 +24,6 @@ class Example
 **REMEMBER:** Your class cannot have a public constructor. If it is necessary, use a private or protected constructor instead. 
 Singleton classes does not have arguments in the constructor;
 
-
 ## Use your class
 
 ```php
@@ -34,7 +33,7 @@ $example = Example::getInstance();
 ## Install
 
 ```
-composer require "byjg/singleton-pattern=~1.0"
+composer require "byjg/singleton-pattern=4.9.*"
 ```
 
 ## References
