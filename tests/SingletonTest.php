@@ -1,12 +1,11 @@
 <?php
 
+namespace Tests;
+
 use ByJG\DesignPattern\SingletonException;
+use PHPUnit\Framework\TestCase;
 
-require_once __DIR__ . "/../vendor/autoload.php";
-require_once "Sample1.php";
-require_once "Sample2.php";
-
-class SingletonTest extends \PHPUnit\Framework\TestCase
+class SingletonTest extends TestCase
 {
     public function testSingleton()
     {
