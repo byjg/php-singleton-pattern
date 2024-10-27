@@ -2,7 +2,9 @@
 
 namespace ByJG\DesignPattern;
 
-class SingletonException extends \Exception
+use Exception;
+
+class SingletonException extends Exception
 {
 
 }

@@ -36,7 +36,7 @@ trait Singleton
     /**
      * @return static
      */
-    public static function getInstance()
+    public static function getInstance(): static
     {
         static $instances;
 

@@ -1,12 +1,14 @@
 <?php
 
-require_once __DIR__ . "/../vendor/autoload.php";
+namespace Tests;
+
+use ByJG\DesignPattern\Singleton;
 
 class Sample1
 {
-    use \ByJG\DesignPattern\Singleton;
+    use Singleton;
 
-    public $property;
+    public int $property;
 
     private function __construct()
     {
