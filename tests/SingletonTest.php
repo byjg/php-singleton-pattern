@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class SingletonTest extends TestCase
 {
-    public function testSingleton()
+    public function testSingleton(): void
     {
         $sample1 = Sample1::getInstance();
         $this->assertEquals(10, $sample1->property);
@@ -37,14 +37,14 @@ class SingletonTest extends TestCase
         $this->assertEquals(40, $sample1->property);
     }
 
-    public function testClone()
+    public function testClone(): void
     {
         $this->expectException(SingletonException::class);
         $sample1 = Sample1::getInstance();
         $sample2 = clone $sample1;
     }
 
-    public function testSerialize()
+    public function testSerialize(): void
     {
         $this->expectException(SingletonException::class);
         $sample1 = Sample1::getInstance();
