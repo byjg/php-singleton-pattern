@@ -1,17 +1,17 @@
+# Singleton Pattern
+
 [![Build Status](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml/badge.svg?branch=master)](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml)
 [![Opensource ByJG](https://img.shields.io/badge/opensource-byjg-success.svg)](http://opensource.byjg.com)
 [![GitHub source](https://img.shields.io/badge/Github-source-informational?logo=github)](https://github.com/byjg/php-singleton-pattern/)
 [![GitHub license](https://img.shields.io/github/license/byjg/php-singleton-pattern.svg)](https://opensource.byjg.com/opensource/licensing.html)
 [![GitHub release](https://img.shields.io/github/release/byjg/php-singleton-pattern.svg)](https://github.com/byjg/php-singleton-pattern/releases/)
 
-# Singleton Pattern
-
 A lightweight PHP implementation of the Design Pattern Singleton using trait.
-Just one class and no dependencies. 
+Just one class and no dependencies.
 
 ## Requirements
 
-PHP 8.1 or higher
+PHP 8.3 or higher
 
 ## Installation
 
