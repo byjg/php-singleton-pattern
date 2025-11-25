@@ -10,6 +10,14 @@
 A lightweight PHP implementation of the Design Pattern Singleton using trait.
 Just one class and no dependencies.
 
+## Documentation
+
+- [Getting Started](docs/getting-started.md) - Installation and requirements
+- [Creating a Singleton Class](docs/creating-singleton.md) - How to implement the pattern
+- [Using Your Singleton](docs/using-singleton.md) - Working with singleton instances
+- [How It Works](docs/how-it-works.md) - Implementation details
+- [API Reference](docs/api-reference.md) - Complete API documentation
+
 ## Requirements
 
 PHP 8.3 or higher
@@ -81,17 +89,18 @@ The `Singleton` trait:
 - Implements the `getInstance()` static method to create and manage a single instance
 - Prevents cloning by overriding the `__clone()` method
 - Prevents serialization and deserialization by overriding `__sleep()` and `__wakeup()`
-- Uses a static property to store instances of each class that uses the trait
+- Uses a static local variable within `getInstance()` to store instances of each class that uses the trait
 
 ## Run Tests
 
-```
+```bash
 vendor/bin/phpunit
 ```
 
 ## References
 
-* https://en.wikipedia.org/wiki/Singleton_pattern
+* [Wikipedia: Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
+* [Documentation](docs/getting-started.md)
 
 ## Dependencies
 
