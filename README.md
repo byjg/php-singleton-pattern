@@ -1,4 +1,11 @@
+---
+tags: [php]
+---
+
 # Singleton Pattern
+
+A lightweight PHP implementation of the Design Pattern Singleton using trait.
+Just one class and no dependencies.
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%23ea4aaa?logo=githubsponsors&logoColor=white&labelColor=0d1117)](https://github.com/sponsors/byjg)
 [![Build Status](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml/badge.svg?branch=master)](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml)
@@ -7,16 +14,13 @@
 [![GitHub license](https://img.shields.io/github/license/byjg/php-singleton-pattern.svg)](https://opensource.byjg.com/opensource/licensing.html)
 [![GitHub release](https://img.shields.io/github/release/byjg/php-singleton-pattern.svg)](https://github.com/byjg/php-singleton-pattern/releases/)
 
-A lightweight PHP implementation of the Design Pattern Singleton using trait.
-Just one class and no dependencies.
-
 ## Documentation
 
-- [Getting Started](docs/getting-started.md) - Installation and requirements
-- [Creating a Singleton Class](docs/creating-singleton.md) - How to implement the pattern
-- [Using Your Singleton](docs/using-singleton.md) - Working with singleton instances
-- [How It Works](docs/how-it-works.md) - Implementation details
-- [API Reference](docs/api-reference.md) - Complete API documentation
+- [Getting Started](getting-started) - Installation and requirements
+- [Creating a Singleton Class](creating-singleton) - How to implement the pattern
+- [Using Your Singleton](using-singleton) - Working with singleton instances
+- [How It Works](how-it-works) - Implementation details
+- [API Reference](api-reference) - Complete API documentation
 
 ## Requirements
 
@@ -100,7 +104,7 @@ vendor/bin/phpunit
 ## References
 
 * [Wikipedia: Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
-* [Documentation](docs/getting-started.md)
+* [Documentation](getting-started)
 
 ## Dependencies
 
