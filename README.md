@@ -1,4 +1,12 @@
+---
+sidebar_key: singleton-pattern
+tags: [php]
+---
+
 # Singleton Pattern
+
+A lightweight PHP implementation of the Design Pattern Singleton using trait.
+Just one class and no dependencies.
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%23ea4aaa?logo=githubsponsors&logoColor=white&labelColor=0d1117)](https://github.com/sponsors/byjg)
 [![Build Status](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml/badge.svg?branch=master)](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml)
@@ -6,9 +14,6 @@
 [![GitHub source](https://img.shields.io/badge/Github-source-informational?logo=github)](https://github.com/byjg/php-singleton-pattern/)
 [![GitHub license](https://img.shields.io/github/license/byjg/php-singleton-pattern.svg)](https://opensource.byjg.com/opensource/licensing.html)
 [![GitHub release](https://img.shields.io/github/release/byjg/php-singleton-pattern.svg)](https://github.com/byjg/php-singleton-pattern/releases/)
-
-A lightweight PHP implementation of the Design Pattern Singleton using trait.
-Just one class and no dependencies.
 
 ## Documentation
 
