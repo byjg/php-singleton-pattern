@@ -63,7 +63,7 @@ Attempting to unserialize a singleton will throw a `SingletonException`:
 
 ```php
 try {
-    $unserialized = unserialize($someSerialized Data);
+    $unserialized = unserialize($someSerializedData);
 } catch (\ByJG\DesignPattern\SingletonException $e) {
     echo "Cannot deserialize a singleton!";
 }
