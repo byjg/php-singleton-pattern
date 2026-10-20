@@ -36,7 +36,7 @@ Version 6.0 brings significant improvements to the Singleton Pattern library, in
 | Aspect | Before (5.x) | After (6.x) | Description |
 |--------|-------------|------------|-------------|
 | **Minimum PHP Version** | PHP 8.1 | PHP 8.3 | Dropped support for PHP 8.1 and 8.2 |
-| **Maximum PHP Version** | PHP <8.4 | PHP <8.6 | Added support for PHP 8.4 and 8.5 |
+| **Maximum PHP Version** | `PHP <8.4` | `PHP <8.6` | Added support for PHP 8.4 and 8.5 |
 | **PHPUnit Version** | ^9.6 | ^10.5\|^11.5 | Updated to support PHPUnit 10 and 11 |
 | **Psalm Version** | ^5.9 | ^5.9\|^6.13 | Added support for Psalm 6 |
 
