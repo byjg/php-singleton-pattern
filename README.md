@@ -1,5 +1,6 @@
 ---
 sidebar_key: singleton-pattern
+sidebar_category: infrastructure
 tags: [php]
 ---
 
