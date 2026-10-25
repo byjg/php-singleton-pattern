@@ -5,8 +5,7 @@ tags: [php]
 
 # Singleton Pattern
 
-A lightweight PHP implementation of the Design Pattern Singleton using trait.
-Just one class and no dependencies.
+The singleton pattern as one trait: add it to a class, and that class has exactly one instance.
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%23ea4aaa?logo=githubsponsors&logoColor=white&labelColor=0d1117)](https://github.com/sponsors/byjg)
 [![Build Status](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml/badge.svg?branch=master)](https://github.com/byjg/php-singleton-pattern/actions/workflows/phpunit.yml)
@@ -15,6 +14,15 @@ Just one class and no dependencies.
 [![GitHub source](https://img.shields.io/badge/Github-source-informational?logo=github)](https://github.com/byjg/php-singleton-pattern/)
 [![GitHub license](https://img.shields.io/github/license/byjg/php-singleton-pattern.svg)](https://opensource.byjg.com/license/)
 [![GitHub release](https://img.shields.io/github/release/byjg/php-singleton-pattern.svg)](https://github.com/byjg/php-singleton-pattern/releases/)
+
+## Why
+
+A singleton is a few lines that every project writes again, and usually incompletely: the
+constructor is private, but the instance can still be duplicated with `clone` or with
+`unserialize()`.
+
+Add the trait and the class gets `getInstance()`, one instance per class (subclasses get
+their own), and blocks cloning, serializing and unserializing. One trait, no dependencies.
 
 ## Documentation
 
